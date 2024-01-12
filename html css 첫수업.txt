@@ -1,0 +1,8 @@
+http: 전세계적으로 공통된 통신규약
+https: 보안이 적용된 통신규약
+strong 태그는 글자를 강조할때 사용 굵게도 됨
+em태그는 이텔릭체이면서 강조할 때 사용
+ <a href="../index1.html">인덱스 페이지로 이동</a>
+
+    <a href="https://www.google.com"target="_blank">구글로 링크</a>
+    <a ping="" post 요청 전송합니다. 대개 추적 용도로 사용합니다.

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            border: 1px solid black;
+        }
+
+        div#original {
+            margin-bottom: 50px;
+        }
+        div .div1 {
+            float: left;
+            width: 152px;
+            height: 192px;
+            margin: 10px;
+            background-color: rgba(0,0,255,0.3);
+            perspective: 200px;
+            transform-style: preserve-3d;
+        }
+        .translatex img {
+            transform: translatex(-10px);
+        }
+        .translatey img {
+            transform: translateY(-30px);
+        }
+        .trnaslatez img {
+            transform: translateZ(-50px);
+        }
+        .translatexyz img {
+            transform: translate3d(10px, 20px, 10px);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="original">
+            <h3>원본 이미지</h3>
+            <img src="iu.png"/>
+        </div>
+        <div class="div1">
+            <div class="translatex"><img src="iu.png"></div>
+        </div>
+        <div class="div1">
+            <div class="translatey"><img src="iu.png"></div>
+        </div>
+        <div class="div1">
+            <div class="translatez"><img src="iu.png"></div>
+        </div>
+        <div class="div1">
+            <div class="translatexyz"><img src="iu.png"></div>
+        </div>
+    </div>
+
+</body>
+</html>
+<!-- 
+    transform : 변형 함수 값;
+    translate(tx,ty) : 지정한 크기만큼 수평과 수직으로 이동합니다.
+    translate3d(tx,ty,tz) : 지정한 크기만큼 수평과 수직, 앞뒤로 이동합니다.
+    translateX(tx) : 수평으로 이동
+    translateY(ty) : 수직으로 이동
+    translateZ(tz) : 앞뒤로 이동합니다.
+    scale(sx,sy) : 지정한 크기만큼 수평과 수직으로 확대/축소합니다.
+    scale3d(sx,sy,sz) : 수평과 수직, 앞뒤로 확대/축소 합니다.
+    scaleX(sx) : 수평으로 확대/축소
+    scaleY(sy) : 수직으로 확대/축소
+    scaleZ(sz) : 앞뒤로 확대/축소
+    rotate(rx, ry, 각도) : 지정한 각도만큼 수직,수평 회전합니다.
+    rotate3d(rx, ry, rz, 각도) : 지정한 각도만큼 회전합니다.
+    rotateX(rx, 각도) : 수평으로 회전
+    rotateY(ry, 각도) : 수직으로 회전
+    rotateZ(rz, 각도) : 앞뒤로 회전
+    skew(x각도, 각도) : 수평과 수직으로 왜곡 합니다.
+    skewX
+    skewY
+
+
+ -->

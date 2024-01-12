@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Document</title>
+        <style>
+            form ul li {
+                list-style: none;
+            }
+            .register {
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        
+            <form>
+                <fieldset>
+                    <legend>
+                        <label for="today">Today</label>
+                        <input type="datetime-local" id="today" />
+                    </legend>
+                </fieldset>
+            </form>
+        
+        <form>
+            <fieldset>
+                <legend>강의 시간을 선택하세요</legend>
+                <ul>
+                    <li>
+                        <label class="register" for="startweek">개강 주</label>
+                        <input type="week" id="startweek" />
+                    </li>
+                    <li>
+                        <label class="register" for="starttime">강의 시간</label>
+                        <input type="time" id="starttime" />
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </body>
+</html>

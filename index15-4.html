@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>웹 폼</title>
+    <style>
+        ul li {
+            list-style: none;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        ul li label {
+            width: 80px;
+        }
+        input[type="text"] {
+            width: 150px;
+            background-color: skyblue;
+            border: solid 1px #000;
+        }
+    </style>
+</head>
+<!-- input 요소중에서 type이 text인 요소를 찾아서 텍스트 너비를 150px로 만들고 1px 테두리를 그리고
+하늘색 배경을 적용하세요. -->
+<body>
+<section id="container">
+    
+    <form name="from1" id="form1" method="post">
+        <fieldset>
+            <legend>예약자 정보</legend>
+            <ul>
+                <li>
+                    <label for="name">예약자</label>
+                    <input type="text" id="name">
+                </li>
+                <li>
+                    <label for="conteact">연락처</label>
+                    <input type="tel" id="conteact">
+                </li>
+                <li>
+                    <label for="people">예약 입원</label>
+                    <input type="number" id="people">
+                </li>
+                <li>
+                    <label for="bank">입금 은행</label>
+                    <input type="number" id="bank">
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+</section>
+</body>
+
+</html>
+<!-- 인접 형제 선택 
+요소 + 요소 {속성:속성 값}
+
+h1 + p {
+    text-decoration : underline;
+
+}
+
+
+형제 요소에 스타일 적용
+h1 ~ p {
+    text-decoration : underline;
+}
+
+요소, 요소(그룹 선택자)
+
+h1, p {
+    text-decoration : underline;
+}
+
+
+[속성] {속성:속성값; ...}
+a[target] {
+    background-color : skyblue;
+}
+
+[속성=값] {
+    속성: 속성값;
+}
+
+[속성 ~= 값] {
+    속성: 속성값;
+}
+-->

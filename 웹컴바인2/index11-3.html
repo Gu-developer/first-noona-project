@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myS {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background: url("iu.png") no-repeat center center padding-box;
+            border-radius: 50px;
+            border: 2px solid black;
+            animation-duration: 3s;
+            animation-name: iu;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation: name duration timing-function delay iteration-count direction 값;
+            /*animation-direction: ; 애니메이션 속성을 반대 방향으로 실행시켜 줍니다.
+            normal(원래 위치로 돌아가는 기본값) 과 alternate(애니메이션을 실행했던 반대 방향으로 애니메이션을 실행 합니다.)*/
+            
+            /*animation-iteration-count: ; 반복 횟수를 지정 할 수 있습니다.
+            반복 횟수를 나타내는 숫자나 무한 반복을 할 수 있는 infinite를 사용할 수 있다.*/
+            
+        }
+        @keyframes iu {
+            0%{
+                left: 10px;
+            }
+            50%{
+                background: url("iu2.png") no-repeat center center;
+            }
+            100%{
+                left: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="myS"></div>
+</body>
+</html>

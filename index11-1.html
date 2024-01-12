@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>폼태그 <label></title>
+    <style>
+        body {
+            background-color: #2dbaf2;
+        }
+        #register fieldset {
+            margin-bottom: 30px;
+        }
+        #register legend {
+            font-size: 15px;
+            font-weight: 600;
+        }
+        #register ul li {
+            list-style: none;
+            margin: 15px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <form id="register">
+        <legend>HTML/CSS 등급별 수강 과목을 선택해 주세요<small>(1과목 선택가능)</small></legend>
+        <ul>
+            <li>
+                <label><input type="radio" name="htmlcss" value="low" checked>HTML/CSS(초급)</label>
+            </li>
+            <li>
+                <label><input type="radio" name="htmlcss" value="middle" checked>HTML/CSS(중급)</label>
+            </li>
+            <li>
+                <label><input type="radio" name="htmlcss" value="high" checked>HTML/CSS(고급)</label>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>

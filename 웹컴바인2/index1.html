@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* ul li:nth-of-type(3) {
+            background-color: #2dbaf2;
+        } */
+           ul li:nth-last-of-type(2) {
+            background-color: #20b5f3;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+</body>
+
+<!-- a:active
+a:hover 선택자
+:root -->
+
+<!-- :nth-child(n)
+    :nth-last-child(n) 
+    odd : 홀수
+    even : 짝수
+
+div p:nth-child(3)
+div p:nth-child(odd), div p:nth-child(2n+1)
+div p:nth-child(even), div p:nth-child(2n+0), div p:nth-child(2n)
+
+:nth-of-type(n)
+:nth-last-of-type(n)
+:first-child : 첫번째 자식 요소에 적용할 선택자
+:last-child : 마지막 자식 요소에 적용할 선택자
+:first-of-type
+:last-of-type
+
+p:first-of-type {color: blue;}
+p:last-of-type {color : blue;}
+:only-child : 부모 요소 안의 자식요소가 유일하게 하나일 때 스타일을 적용합니다.
+:only-of-type : 해당 요소가 유일한 요소일때
+
+p:only-child {color: green;}
+p:only-of-type {font-weight: bold;}
+:target 
+
+#intro:target {bacground : red;}
+
+:enabled : 요소중에서 사용할 수 있는 상태
+:disabled : 요소중에서 사용할 수 없는 상태
+:checked : 라디오 버튼이나 체크박스가 체크되었을 때 적용할 스타일입니다.
+
+::before
+::after
+
+p::before {content:"내용:";}
+::selection {color : blue;}
+:not(h3) {color : yellow;}
+-->

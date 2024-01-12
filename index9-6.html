@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Document</title>
+        <style>
+            #container {
+                position: relative;
+                text-align: center;
+                margin-top: 30px;
+                margin-left: 30px;
+            }
+            #bg {
+                position: fixed;
+                left: 0;
+                top: 0;
+                width: auto;
+                height: auto;
+                min-width: 100%;
+                min-height: 100%;
+            }
+            h2 {
+                font-size: 1em;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- <video src="example_mp4gfadsfs.mp4" width="300" height="200" controls></video> -->
+
+        <!-- <video src="candle.mp4" id="bg" autoplay loop muted></video>
+        <div id="container">
+            <h2>VIDEO 태그를 이용한 전체화면 적용 방법</h2>
+            <h1>여러분도 잠시 후 할 수 있어요.</h1>
+        </div> -->
+
+        <!-- <audio src="오디오 경로" 속성=""></audio> -->
+
+        <!-- <audio src="AlanWalker-TheDrum.mp3" controls preload=""></audio> -->
+
+        <audio controls preload="none">
+            <audio src="AlanWalker-TheDrum.mp3" controls preload="metadata"></audio>
+            <video src="flower.mp4" controls preload="metadata"></video>
+        </audio>
+
+        
+    </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>여름방학 특강 신청</h1>
+    <form>
+        <fieldset id="subject">
+            <legend>수강과목</legend>
+            <ul>
+                <li>
+                    <label class="reg" for="subj">프로그래밍언어(초급)</label>
+                    <input type="text" id="subj" value="오전 9:00~11:00" readonly>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset id="register">
+            <legend>신청자</legend>
+            <ul>
+                <li>
+                    <label class="reg" for="name">이름</label>
+                    <input autofocus type="text" id="name" placeholder="공백없이 입력하세요.">
+                </li>
+                <li>
+                    <label class="reg" for="userid">학번</label>
+                    <input type="text" id="userid" placeholder="6자리학번">
+                </li>
+                <li>
+                    <label class="reg" for="classlist">학과</label>
+                    <select id="classlist">
+                        <option value="computer1">컴퓨터공학과</option>
+                        <option value="computer2">의료전자과</option>
+                        <option value="computer3">컴퓨터드론과</option>
+                        <option value="computer4">ICT컴퓨터과</option>
+                        <option value="computer5 selected">융합전공 데이터사이언스과</option>
+                        <option value="computer6">정보컴퓨터공학과</option>
+                    </select>
+                </li>
+            </ul>
+        </fieldset>
+
+        <label>아이디 : <input type="text" autocomplete="on"></label>
+
+    </form>
+</body>
+</html>
+
+<!-- autocomplete -->
+
+<!--
+on : 자동완성 기능을 켭니다.
+off : 자동완성 기능을 끌 때 선택합니다.
+default : 기본 상태입니다.
+-->

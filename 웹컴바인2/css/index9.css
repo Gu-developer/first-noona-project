@@ -1,0 +1,59 @@
+#side-navbar {
+    background-color: black;
+    height: 960px;
+    width: 250px;
+    position: absolute;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#menu li a {
+    color: #eeeeee;
+    text-decoration: none;
+} 
+#menu li:not(:last-child) {
+    margin-bottom: 30px;
+}
+#menu {
+    list-style: none;
+}
+.link-container {
+    text-align: center;
+    margin-top: 60px;
+}
+.link-container a:first-child {
+    margin-right: 30px;
+}
+.hero-header {
+    background-image: url("../images/hero_header.jpg");
+    height: 960px;
+    background-size: cover;
+    background-position: center center;
+    margin-left: 250px;
+    line-height: 450px;
+    text-align: center;
+
+}
+h1 {
+    color: #eeeeee;
+    font-size: 38px;
+    margin: 0;
+
+}
+.hero-header > .info > a {
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 40px;
+}
+.info {
+    vertical-align: middle;
+    display: inline-block;
+}

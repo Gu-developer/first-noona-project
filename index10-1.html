@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>폼 만들어 보기</title>
+    <style>
+        ul {
+            list-style-type: none;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- <form 속성="">
+        여러가지 폼 요소들을 삽입
+    </form> -->
+
+    <!-- <form action="register.jsp" method="get">
+        여러가지 폼 요소들을 삽입
+    </form> -->
+
+    <form action="register.html" method="post">
+        <fieldset 속성=""></fieldset>
+        <legend></legend>
+        <ul>
+            <li>이름 : <input type="text" id="user_name"></li>
+            <li>메일 주소 : <input type="text" id="user_mail"></li>
+            <li><input type="submit" value="가입하기"></li>
+        </ul>
+    </form>
+
+</body>
+</html>
+<fieldset></fieldset>
+
+
+<!-- mvc 콘트롤러 
+
+    post 방식 get 방식 있는데 알아보기
+    get method : 읽기, 검색할때 사용하는 메소드
+
+
+    action : 폼이 제출된 URL을 지정합니다.
+        -action 속성을 이용하지 않고 onsubmit 이벤트를 이용해 스크립트로 처리할 수 있다.
+    method : 폼이 제출되는 방법을 지정합니다. get, post 중 하나를 사용할 수 있다.
+    enctype : 폼 데이터의 인코딩 방법을 지정합니다.
+    accept : 폼이 제출될 때 서버에서 응답할 수 있는 콘텐츠 유형을 지정합니다.
+    target : 폼 데이터가 제출될 프레임을 지정합니다. 자주나옴...
+        -action에서 지정한 스크립트 파일을 현재 창이 아닌 다른 위치에 열도록 지정합니다.
+    name : 폼의 이름을 지정, 식별용도,
+    id : 폼의 id를 지정합니다.
+    onsubmit : 폼이 제출되기 전에 실행될 이벤트 핸들러를 지정합니다.
+    onreset : 폼이 재설정되기 전에 실행될 이벤트 핸들러를 지정합니다.
+
+
+    xml 
+    json
+
+
+
+    <fieldset>
+    disabled : fieldset 태그의 자식 요소들을 사용할 수 없게 만듭니다.
+    form : 현재 필드셋 태그가 속해 있는 폼의 이름을 표시할 수 있습니다.
+    name : 속성을 이용해서 서버로 넘겨줄 이름을 지정합니다.
+    id : 필드셋의 id를 지정합니다.
+
+
+    <legend>
+    align : 필드셋의 제목을 정렬합니다. left, center, right 중 하나를 사용할 수 있습니다.
+    style : 필드셋의 제목의 스타일을 지정할 수 있다.
+    id : 필드셋의ㅣ 제목의 id를 지정합니다.
+
+-->

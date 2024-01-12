@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        table {
+            width: 400px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="열의 개수">1행 1열</td>
+        <td>1행 2열</td>
+    </tr>
+    <tr>
+        <td rowspan="행의 개수">2행 1열</td>
+        <td>2행 2열</td>
+    </tr>
+    <tr>
+        <td>3행 1열</td>
+        <td>3행 2열</td>
+    </tr>
+</table>
+</body>
+</html>
+
+<!-- 
+    표 관련 태그
+    행(row) + 열(column) = 셀(cell)
+
+    <table> : 행과 열, 셀 등 여러 요소를 정의하는 태그
+    <caption></caption> : 표에 대한 간략한 제목을 넣을 수 있습니다.
+    <tr></tr> : 행 하나를 추가합니다.
+    <td></td> : 셀 하나를 추가합니다
+    <th></th> : 제목이 들어갈 셀을 추가합니다.
+    <col> : 여러 줄에 걸쳐 있는 열 하나를 지정합니다.
+    <colgroup></colgroup> : 여러 개의 col 요소를 하나의 그룹으로 묶습니다.
+    <thead></thead> : 여러 열을 하나의 그룹으로 묶어 표의 헤더로 지정합니다.
+    <tbody></tbody> : 여러 열을 묶어 표의 본문으로 지정
+    <tfoot></tfoot> : 여러 열을 묶어 표의 푸터로 지정
+-->

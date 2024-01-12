@@ -1,0 +1,33 @@
+@font-face {
+    src: url("../fonts/BMJUA_ttf.ttf");
+    font-family: BMJUA;
+}
+
+
+#serif {
+    font-family: 'Times New Roman', serif;
+}
+
+#sans-serif {
+    font-family: Arial, sans-serif;
+}
+
+#monospace {
+    font-family: Courier, monospace;
+}
+
+#cursive {
+    font-family: "Comic sans MS", cursive;
+}
+
+#fantasy {
+    font-family: Impact, fantasy;
+}
+
+#google {
+    font-family: 'Belanosima', sans-serif;
+}
+
+#woowahan {
+    font-family: BMJUA;
+}

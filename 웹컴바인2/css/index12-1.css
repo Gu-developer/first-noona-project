@@ -1,0 +1,38 @@
+body {
+    background-color: #babecc;
+}
+p {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 960px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        background-color: orange;
+    }
+}
+
+@media all and (device-width: 320px) and (device-height: 480px) {
+    
+}
+
+@media all and (orientation: portrait){
+
+}
+
+/* orientation : portrait - 단말기의 세로 방향
+                landscape - 단말기의 가로 방향 */
+

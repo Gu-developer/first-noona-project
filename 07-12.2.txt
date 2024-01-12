@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'noto sans';
+        }
+        .hero-header {
+            position: relative;
+            height: 940px;
+            background-image: url('hero_image.jpg');
+            background-size: 100% 100%;
+        }
+        .hero-header .helper {
+                display: inline-block;
+                vertical-align: middle;
+                height: 100%;
+        }
+        .info {
+                width: 100%;
+                display: inline-block;
+                color: skyblue;
+                vertical-align: middle;
+                text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero-header">
+        <div id="navbar">
+            <a href="#" id="logo">LUX</a>
+        </div>
+        <div class="helper"></div><div class="info">
+                <h1>23th WaterBOMB Music Festival</h1>
+                <h2>01-31 july, 2023</h2>
+                <a href="#" class="learn-more">learn More</a>
+            </div>
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>웹 폼</title>
+    <style>
+        h4[title ~= "로맨스"] {
+            font-style: italic;
+        }
+        h4[title ~= "멜로"] {
+            color: #29cd42;
+
+        }
+        h4[title ^= "남성"] {
+            background : url(man.png) no-repeat;
+            padding: 10px 30px;
+        }
+        ul li {
+            font-size: 16px;
+            line-height: 25px;
+            list-style: none;
+        }
+        h4[title ^= "여성"]{
+            background: url(woman.png) no-repeat;
+            padding: 10px 30px;
+        }
+    </style>
+</head>
+<!-- input 요소중에서 type이 text인 요소를 찾아서 텍스트 너비를 150px로 만들고 1px 테두리를 그리고
+하늘색 배경을 적용하세요. -->
+<body>
+<section>
+    <header><h1>영화장르</h1></header>
+    <h3>영화장르 소개</h3>
+    <h4 title="남성 로맨스">로맨스</h4>
+    <ul>
+        <li>내머리속의 지우개</li>
+        <li>비밀</li>
+    </ul>
+    <h4 title="여성 멜로">멜로</h4>
+    <ul>
+        <li>타이타닉</li>
+        <li>3000년의 기다림</li>
+    </ul>
+    <h4 title="로맨스 멜로">로맨스/멜로</h4>
+    <ul>
+        <li>어바웃타임</li>
+        <li>노팅 힐</li>
+    </ul>
+</section>
+</body>
+
+</html>
+<!-- 인접 형제 선택 
+요소 + 요소 {속성:속성 값}
+
+h1 + p {
+    text-decoration : underline;
+
+}
+
+
+형제 요소에 스타일 적용
+h1 ~ p {
+    text-decoration : underline;
+}
+
+요소, 요소(그룹 선택자)
+
+h1, p {
+    text-decoration : underline;
+}
+
+
+[속성] {속성:속성값; ...}
+a[target] {
+    background-color : skyblue;
+}
+
+[속성=값] {
+    속성: 속성값;
+}
+
+[속성 ~= 값] {
+    속성: 속성값;
+}
+
+[속성 ^= 값] 
+
+a[href=".xls"]
+-->

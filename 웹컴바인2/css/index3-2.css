@@ -1,0 +1,67 @@
+@font-face {
+    src: url();
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Nanum Pen Script', cursive;;
+    
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Nanum Pen Script', cursive;;
+    background-color: #F0E8D9;
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+    color: #58595b;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #58595b;
+    margin-bottom: 30px;
+}
+.food {
+    width: 300px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.food h3 {
+    color: #58595b;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    
+}
+.food p {
+    color: #58595b;
+    font-size: 16px;
+    margin-top: 0; 
+    margin-bottom: 16px;
+    text-align: left;
+}
+.food a {
+    color: #0000EE;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+.info {
+    padding: 20px;
+    text-align: center;
+}
+.food img {
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
